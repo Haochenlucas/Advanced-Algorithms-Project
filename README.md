@@ -2,7 +2,7 @@
 
 
 ## Overview
-This is a prgram 
+In the paper A Spectral Clustering Approach to Finding Communities in Graphs, authors White and Smyth present an algorithm that applies a modularity function that measures how optimal the clusters chosen are.  It does this by iterating over different numbers of cluster k up until a maximum value K which is chosen arbitrarily. One drawback of this algorithm is since K is chosen arbitrarily, it is likely that many iterations may be unnecessary. We propose a way to determine the top eigenvectors that will in return give the optimal k value creating a smaller range to determine clusters for and test our result in this program.
 
 
 ## Datasets
