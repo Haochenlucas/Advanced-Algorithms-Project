@@ -19,7 +19,7 @@ We use stochatic block model to form a total of 27 different graphs using the fo
 * total number of vertices in the graph: [100,250,500]
 * total number of clusters in the graph: [5,7,10]
 * the probability of an edge connecting two vertices in the same cluster: [0.4, 0.7, 0.9] 
-
+Each simulation is run 10 times and the average of the values that we need is stored.
 
 ## How to run
 Running pickQ.py will use the two datasets (WordNet and NCAA) to form a 2D-plot showing the clusters. It will also draw a 3D-plot with x,y,z being number of eigen_vector, number of cluster and Modularity.
